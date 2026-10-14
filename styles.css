@@ -229,3 +229,12 @@ header h2 {
     border: solid #f9f4f8 2px;
 }
 /* CTA */
+
+/* FOOTER */
+footer {
+    padding: 32px 0;
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9f4f8;
+}
+/* FOOTER */
