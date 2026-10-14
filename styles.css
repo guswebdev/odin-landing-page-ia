@@ -109,3 +109,44 @@ header h2 {
     cursor: pointer;
 }
 /* HERO */
+
+/* INFORMATION */
+.information {
+    padding: 48px 0;
+}
+
+.information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.rectangulo-borde {
+    height: 200px;
+    border: #3882f6 thick solid;
+    border-radius: 20px;
+}
+
+/* INFORMATION */
