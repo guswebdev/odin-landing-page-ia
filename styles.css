@@ -18,6 +18,23 @@ ul {
     list-style: none;
 }
 
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 8px 32px;
+    font-weight: bold;
+    color: #f9f4f8;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f9f4f8;
+    color: #3882f6;
+}
+
 .container {
     width: 90%;
     max-width: 1024px;
@@ -48,6 +65,9 @@ header h2 {
 
 .menu-list a {
     color: #f9f4f8;
+}
+.menu-list a:hover {
+    color: #3882f6;
 }
 /* HEADER */
 
@@ -95,18 +115,6 @@ header h2 {
 .hero-content p {
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.hero-content button {
-    display: inline-block;
-    border: none;
-    padding: 8px 32px;
-    font-weight: bold;
-    color: #f9f4f8;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: #3882f6;
-    cursor: pointer;
 }
 /* HERO */
 
@@ -183,3 +191,41 @@ header h2 {
     font-style: italic;
 }
 /* CITE */
+
+/* CTA */
+.cta {
+    padding: 96px 0;
+}
+
+.cta .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.cta-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #f9f4f8;
+}
+
+.cta-content h3{
+    font-size: 24px;
+}
+
+.cta-button button {
+    border: solid #f9f4f8 2px;
+}
+/* CTA */
